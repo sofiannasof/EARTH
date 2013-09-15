@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<com.google.android.maps.MapView
+    	android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:apiKey="0-OL4sVJMuyRVXA0M06LPCj5Kmv6EKN49bE7vPg"
+    />
+	<FrameLayout
+		android:id="@+id/zoomview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/mapview"
+		android:layout_centerHorizontal="true"
+	/>
+	<TextView 
+		android:id="@+id/myLocationText" 
+		android:layout_width="wrap_content" 
+		android:layout_height="fill_parent"
+		android:layout_alignTop="@+id/button" 
+		android:textColor="#FFFFFF"
+	/>
+</RelativeLayout>
+

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EARTH</string>
+
+    <string name="yes">Ναί</string>
+    <string name="no">Όχι</string>
+    <string name="exit">Έξοδος</string>
+    <string name="attention">Προσοχή...</string>
+    <string name="close">Τερματισμός εφαρμογής;;</string>
+    <string name="url">Ο φυλλομετρητής θα ανοίξει... θέλετε να συνεχίσετε;;</string>
+	
+	<!-- StartEco.java-->
+	<string name="help">Βοήθεια</string>
+	<string name="info">Πληροφορίες</string>
+	<string name="name">E.A.R.T.H.</string>
+	<string name="ok">Συμφωνώ</string>
+	<string name="help_text">
+	Επιλέγοντας την υδρόγειο (κέντρο) μπορείτε να βρείτε σημεία ανακύκλωσης ηλεκτρικών
+	συσκευών στα διάφορα σημεία της Ελλάδας.\n\n
+	Επιλέγοντας το σήμα της ανακύκλωσης (κάτω αριστερά) μπορείτε να μάθετε σχετικά με τα είδη των προϊόντων που
+	ανακυκλώνονται στα συγκεκριμένα σημεία.\n\n
+	Για περισσότερες πληροφορίες σχετικά με την εφαρμογή επιλέξτε το σήμα του Πανεπιστημίου Αιγαίου (κάτω δεξιά).
+	</string>
+	
+	<!-- Credits.java-->
+	<string name="credits">Σχετικά</string>
+	<string name="ver">Έκδοση 1.0</string>
+	<string name="university">Πανεπιστήμιο Αιγαίου</string>
+	<string name="dept"><a href="http://www.icsd.aegean.gr">Τμήμα Μηχανικών Πληροφοριακών και Επικοινωνιακών Συστημάτων</a></string>
+	<string name="dev1">Αθανάσιος Λουκάς</string>
+	<string name="dev2">Δημήτριος Δαμόπουλος</string>
+	<string name="dev3">Μαρία-Ελένη Σκαρκαλά</string>
+	<string name="dev4">Σοφία-Άννα Μενεσίδου</string>
+	<string name="sup">Υπεύθυνος Καθηγητής</string>
+	<string name="sup1">Γεώργιος Καμπουράκης</string>
+	
+	<!-- Info.java-->
+	<string name="info_text">
+	Η εφαρμογή δημιουργήθηκε με σκοπό την γρήγορη και αποτελεσματική εύρεση των σημείων
+	ανακύκλωσης ηλεκτρικών συσκευών στις διάφορες περιοχές της Ελλάδας.\n
+    Ο χρήστης μπορεί να βρει τα σημεία ανακύκλωσης ενός συγκεκριμένου νομού, ή να βρει με τη βοήθεια του συστήματος
+    εντοπισμού θέσης (GPS) σημεία ανάλογα με τη χιλιομετρική τους απόσταση από αυτόν!\n\n
+    Οι κατηγορίες των προϊόντων που μπορούν να ανακυκλωθούν στα σημεία αυτά είναι οι ακόλουθες:\n 
+	1  Μεγάλες οικιακές συσκευές\n
+	2  Μικρές οικιακές συσκευές\n
+	3  Εξοπλισμός πληροφορικής και τηλεπικοινωνιών\n
+	4  Καταναλωτικά είδη\n
+	5  Φωτιστικά είδη\n
+	6  Ηλεκτρικά και ηλεκτρονικά εργαλεία (εξαιρουμένων των μεγάλης κλίμακας σταθερών βιομηχανικών εργαλείων)\n
+	7  Παιχνίδια και εξοπλισμός ψυχαγωγίας και αθλητισμού\n
+	8  Ιατροτεχνολογικά προϊόντα (εξαιρουμένων των εμφυτεύσιμων και μολυσμένων)\n
+	9  Όργανα παρακολούθησης και ελέγχου\n
+	10 Συσκευές αυτόματης διανομής\n\n
+	Πηγή σημείων ανακύκλωσης: 
+	</string>
+	<string name="address"><a href="http://www.electrocycle.gr/new/">Ανακύκλωση Συσκευών Α.Ε.</a></string>
+	<string name="info_text2">(Τελευταία ενημέρωση 08/2010)</string>
+	<string name="info_text3">Η χρήση των Χαρτών Google παρέχεται υπό τους όρους και τις προϋποθέσεις που περιγράφονται στο </string>
+	<string name="address2"><a href="http://code.google.com/intl/uk/apis/maps/terms.html">Google Maps / Google Earth APIs Terms of Service</a></string>
+	
+	<!-- Map.java-->
+	<string name="map">Χάρτης</string>
+	<string name="toast1">Βρέθηκαν συνολικά</string>
+	<string name="toast11">περιφερειακές ενότητες με κάδους ανακύκλωσης!</string>
+	<string name="toast12">σημεία ανακύκλωσης!</string>
+	<string name="toast2">Κανένα σημείο ανακύκλωσης σε ακτίνα</string>
+	<string name="toast3">Βρέθηκε το κοντινότερο σημείο! Για πληροφορίες πατήστε πάνω...</string>
+	<string name="toast4">Το κοντικότερο σημείο βρίσκεται σε απόσταση</string>
+	<string name="toast41">χιλιομέτρων</string>
+	<string name="toast5">Πρόβλημα κατά την ανάκτηση της διαδρομής!</string>
+	<string name="gps">Το GPS είναι απενεργοποιημένο! Ενεργοποίηση τώρα;;</string>
+	<string name="settings">Ρυθμίσεις</string>
+	<string name="loc">Τοποθεσία μου</string>
+	<string name="search">Αναζήτηση</string>
+	<string name="pref">Περιφερειακό Διαμέρισμα</string>
+	<string name="dist">Απόσταση</string>
+	<string name="near">Κοντινότερο</string>
+	<string name="mun1">Περιφερειακή ενότητα</string>
+	<string name="mun2">Προβολή όλων των σημείων ανακύκλωσης;;</string>
+	<string name="dialog1">Εύρεση τοποθεσίας! Παρακαλώ περιμένετε...</string>
+	<string name="dialog2">Εύρεση σημείων! Παρακαλώ περιμένετε...</string>
+	<string name="dialog3">Εύρεση διαδρομής! Παρακαλώ περιμένετε...</string>
+	<string name="addr">Διεύθυνση...</string>
+	<string name="path">Εμφάνιση συντομότερης διαδρομής;;</string>
+	<string name="pref1">Αττικής</string>
+	<string name="pref2">Θεσσαλονίκης</string>
+    
+    <!-- prefectures -->
+    <string-array name="pref_array">
+        <item>Αιτωλοακαρνανίας</item>
+        <item>Αργολίδας</item>
+        <item>Αρκαδίας</item>
+        <item>Άρτας</item>
+        <item>Αττικής</item>
+        <item>Αχαΐας</item>
+        <item>Βοιωτίας</item>
+        <item>Γρεβενών</item>
+        <item>Δράμας</item>
+        <item>Δωδεκανήσου</item>
+        <item>Έβρου</item>
+        <item>Εύβοιας</item>
+        <item>Ευρυτανίας</item>
+        <item>Ζακύνθου</item>
+        <item>Ηλείας</item>
+        <item>Ημαθίας</item>
+        <item>Ηρακλείου</item>
+        <item>Θεσπρωτίας</item>
+        <item>Θεσσαλονίκης</item>
+        <item>Ιωαννίνων</item>
+        <item>Καβάλας</item>
+        <item>Καρδίτσας</item>
+        <item>Καστοριάς</item>
+        <item>Κέρκυρας</item>
+        <item>Κεφαλληνίας</item>
+        <item>Κιλκίς</item>
+        <item>Κοζάνης</item>
+        <item>Κορινθίας</item>
+        <item>Κυκλάδων</item>
+        <item>Λακωνίας</item>
+        <item>Λάρισας</item>
+        <item>Λασιθίου</item>
+        <item>Λέσβου</item>
+        <item>Λευκάδας</item>
+        <item>Μαγνησίας</item>
+        <item>Μεσσηνίας</item>
+        <item>Ξάνθης</item>
+        <item>Πέλλας</item>
+        <item>Πιερίας</item>
+        <item>Πρέβεζας</item>
+        <item>Ρεθύμνου</item>
+        <item>Ροδόπης</item>
+        <item>Σάμου</item>
+        <item>Σερρών</item>
+        <item>Τρικάλων</item>
+        <item>Φθιώτιδας</item>
+        <item>Φλώρινας</item>
+        <item>Φωκίδας</item>
+        <item>Χαλκιδικής</item>
+        <item>Χανίων</item>
+        <item>Χίου</item>
+    </string-array>
+    
+    <!-- distances -->
+    <string-array name="dist_array">
+        <item>1χμ</item>
+        <item>2χμ</item>
+        <item>3χμ</item>
+        <item>4χμ</item>
+        <item>5χμ</item>
+        <item>10χμ</item>
+    </string-array>
+</resources>

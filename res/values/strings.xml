@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EARTH</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+    <string name="attention">Attention...</string>
+    <string name="close">Terminate application??</string>
+    <string name="url">Browser will now open... do you want to continue??</string>
+	
+	<!-- StartEco.java-->
+	<string name="help">Help</string>
+	<string name="info">Information</string>
+	<string name="name">E.A.R.T.H.</string>
+	<string name="ok">OK</string>
+	<string name="help_text">
+	By selecting the globe icon (center) you can locate the electrical appliance recycling
+	spots in Greece.\n\n
+	By selecting the recycling icon (bottom left) you can learn which products can be recycled at these points.\n\n
+	For more information about the application please tap on the Aegean University logo (bottom right).
+	</string>
+	
+	<!-- Credits.java-->
+	<string name="credits">Credits</string>
+	<string name="ver">Version 1.0</string>
+	<string name="university">University of the Aegean</string>
+	<string name="dept"><a href="http://www.icsd.aegean.gr">Dept. of Information and Communication Systems Engineering</a></string>
+	<string name="dev1">Athanasios Loukas</string>
+	<string name="dev2">Dimitrios Damopoulos</string>
+	<string name="dev3">Maria-Eleni Skarkala</string>
+	<string name="dev4">Sofia-Anna Menesidou</string>
+	<string name="sup">Supervisor</string>
+	<string name="sup1">Georgios Kambourakis</string>
+	
+	<!-- Info.java-->
+	<string name="info_text">
+	This application has been created to quickly and efficiently find the electrical appliance
+	recycling points in different regions of Greece.\n
+	The user is able to locate the recycling spots either for a specific prefecture or by using the positioning system
+	(GPS) points depending on their mileage distance from him/her!
+	The categories of products that can be recycled at these points are as follows:\n
+	1 Large household appliances\n
+	2 Small household appliances\n
+	3 IT and telecommunications equipment\n
+	4 Consumer equipment\n
+	5 Lighting equipment\n
+	6 Electrical and electronic tools (except large scale stationary industrial tools)\n
+	7 Toys, leisure and sports equipment\n
+	8 Medical devices (except implanted and infected products)\n
+	9 Monitoring and control\n
+	10 Automatic dispensers\n\n
+	Recycle points address source:
+	</string>
+	<string name="address"><a href="http://www.electrocycle.gr/new/">Appliances Recycling SA</a></string>
+	<string name="info_text2">(Last update 08/2010)</string>
+	<string name="info_text3">The use of Google Maps is provided under the terms and restrictions noted in</string>
+	<string name="address2"><a href="http://code.google.com/intl/uk/apis/maps/terms.html">Google Maps / Google Earth APIs Terms of Service</a></string>
+	
+	<!-- Map.java-->
+	<string name="map">Map</string>
+	<string name="toast1">Found</string>
+	<string name="toast11">municipalities with recycling points!</string>
+	<string name="toast12">recycling points!</string>
+	<string name="toast2">No recycling point within</string>
+	<string name="toast3">Nearest point found! Press it for more information...</string>
+	<string name="toast4">Nearest point is located</string>
+	<string name="toast41">kilometers away</string>
+	<string name="toast5">Error while retrieving shortest path!</string>
+	<string name="gps">GPS is disabled! Enable it now??</string>
+	<string name="settings">Settings</string>
+	<string name="loc">My location</string>
+	<string name="search">Search</string>
+	<string name="pref">Prefecture</string>
+	<string name="dist">Distance</string>
+	<string name="near">Nearest</string>
+	<string name="mun1">Municipality of</string>
+	<string name="mun2">Display all recycling points??</string>
+	<string name="dialog1">Location update! Please wait...</string>
+	<string name="dialog2">Querying points! Please wait...</string>
+	<string name="dialog3">Querying path! Please wait...</string>
+	<string name="addr">Address...</string>
+	<string name="path">Display nearest path??</string>
+	<string name="pref1">Attica</string>
+	<string name="pref2">Thessaloniki</string>
+	    
+    <!-- prefectures -->
+    <string-array name="pref_array">
+        <item>Aetolia-Acarnania</item>
+        <item>Argolis</item>
+        <item>Arcadia</item>
+        <item>Arta</item>
+        <item>Attica</item>
+        <item>Achaea</item>
+        <item>Boeotia</item>
+        <item>Grevena</item>
+        <item>Drama</item>
+        <item>Dodecanese</item>
+        <item>Evros</item>
+        <item>Euboea</item>
+        <item>Evrytania</item>
+        <item>Zakynthos</item>
+        <item>Elis</item>
+        <item>Imathia</item>
+        <item>Heraklion</item>
+        <item>Thesprotia</item>
+        <item>Thessaloniki</item>
+        <item>Ioannina</item>
+        <item>Kavala</item>
+        <item>Karditsa</item>
+        <item>Kastoria</item>
+        <item>Corfu</item>
+        <item>Kefallinia</item>
+        <item>Kilkis</item>
+        <item>Kozani</item>
+        <item>Corinthia</item>
+        <item>Cyclades</item>
+        <item>Laconia</item>
+        <item>Larissa</item>
+        <item>Lasithi</item>
+        <item>Lesbos</item>
+        <item>Lefkada</item>
+        <item>Magnesia</item>
+        <item>Messinia</item>
+        <item>Xanthi</item>
+        <item>Pella</item>
+        <item>Pieria</item>
+        <item>Preveza</item>
+        <item>Rethymno</item>
+        <item>Rhodope</item>
+        <item>Samos</item>
+        <item>Serres</item>
+        <item>Trikala</item>
+        <item>Phthiotis</item>
+        <item>Florina</item>
+        <item>Phocis</item>
+        <item>Chalkidiki</item>
+        <item>Chania</item>
+        <item>Chios</item>
+    </string-array>
+    
+    <!-- distances -->
+    <string-array name="dist_array">
+        <item>1km</item>
+        <item>2km</item>
+        <item>3km</item>
+        <item>4km</item>
+        <item>5km</item>
+        <item>10km</item>
+    </string-array>
+</resources>
